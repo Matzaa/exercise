@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.card {
+    width: 300px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    border: rgb(153, 153, 153) solid 4px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    color: rgb(78, 78, 78);
+}
+
+* {
+    background-color: rgb(235, 202, 195);
+}
+
+.old {
+    background-color: rgb(190, 190, 190);
+}
+
+.recent {
+    background-color: rgb(212, 119, 102);
+}
+
+.newbie {
+    background-color: rgb(243, 243, 154);
+}
+h1,
+h2 {
+    background-color: transparent;
+}
+
+.head {
+    display: flex;
+    align-content: space-around;
+}
+
+.circle {
+    background-color: brown;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    border: rgb(153, 153, 153) solid 4px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    color: rgb(78, 78, 78);
+    width: 50vw;
+}
+
+.red .circle {
+    background-color: rgb(212, 119, 102);
+}
+.yellow .circle {
+    background-color: rgb(243, 243, 154);
+}
+.gray .circle {
+    background-color: rgb(190, 190, 190);
+}
+
+.red,
+.yellow,
+.gray {
+    display: flex;
+    align-items: center;
+}
